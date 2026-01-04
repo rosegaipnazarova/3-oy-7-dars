@@ -40,3 +40,21 @@
 // console.log(myacc.withdraw(300));   
 
 //n3
+
+class Rectangle {
+    constructor(width, height) {
+        this.width = width
+        this.height = height
+    }
+
+    area() { 
+        return this.width * this.height
+    }
+    perimetr() { 
+        return 2 * (this.width + this.height)
+    }
+}
+
+const shakl = new Rectangle(8, 6)
+console.log(shakl.area());      
+console.log(shakl.perimetr()); 
